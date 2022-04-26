@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px ;
+  text-align: center;
+}
+
+.MuiOutlinedInput-root	{
+  margin-bottom: 10px;
+}
+.MuiFormGroup-root{
+  justify-content: center
+}
+
+
+.MuiCardActions-root{
+  justify-content: center;
+}
+
+
+.uppercard{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card{
+  width: 250px;
+  margin: 15px;
+}
+
+.pricefollowers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.css-r40f8v-MuiTypography-root{
+  height: 100px;
+}
+
+.h1header{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.addPost{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.css-uu76gh-MuiTypography-root > input{
+  margin-bottom: 8px;
+}
+
+#headr{
+  cursor: pointer;
+}
+
+canvas{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+
+}
+
+#err{
+  margin-top: 5px;
+  color: red;
+}
+
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper{
+  width: 200px;
+  height: 450px;
+}
+
+.css-1gsrpyx-MuiFormControl-root-MuiTextField-root {
+  margin: 5px 10px;
+}
+
+.msg{
+  color: red;
+}
+
+#editpan{
+  cursor: pointer;
+}
+
+#deletepen{
+  cursor: pointer;
+}
+
+#btnvava{
+  margin-left: 30px;
+}
